@@ -1,0 +1,44 @@
+.hospital-card{
+    width: 350px;
+    height: 450px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px -5px 10px 0px rgba(230, 230, 230, 0.547)
+}
+.names{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+h1{
+    font-size: x-large;
+}
+h2{
+    font-size: medium;
+}
+img{
+    width:320px;
+    height: 280px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+.hospital-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body{
+    background-color: rgb(233, 229, 237);
+}
+button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin-left: 32%;
+}
