@@ -1,8 +1,14 @@
 import React from 'react'
+import data from '../data/hospital'
 
 const Body = () => {
   return (
-    <div>Body</div>
+    <div className='hospital-card'>
+      {data.map((data)=>{
+        return  <li>{data.doctor_name}</li>
+      })
+    }
+    </div>
   )
 }
 

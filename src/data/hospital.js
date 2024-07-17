@@ -8,3 +8,5 @@ const data=[{"patient_id":1,"appointment_date":"12/12/2022","doctor_name":"Jenni
     {"patient_id":8,"appointment_date":"1/30/2022","doctor_name":"Gibby Hughlin","rating":1,"medical_condition":"Diabetes"},
     {"patient_id":9,"appointment_date":"6/25/2022","doctor_name":"Mick McNirlan","rating":4,"medical_condition":"Cancer"},
     {"patient_id":10,"appointment_date":"1/23/2022","doctor_name":"Sibella Elsley","rating":4,"medical_condition":"Cancer"}]
+
+    export default data;
